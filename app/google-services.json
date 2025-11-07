@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97244567767",
+    "project_id": "new-src-test-21",
+    "storage_bucket": "new-src-test-21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97244567767:android:966e2402669ee8ba02f892",
+        "android_client_info": {
+          "package_name": "dev.xoventech.tunnel.vpn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsuq_TJDAUEYQPQQFxGTes5Rgqj2A1lzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.xoventech.tunnel.vpn.app-mergeDebugResources-48:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\jdk-17\\caches\\transforms-4\\539a8dbcddba4a5025fb44fd34e7d8f8\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}

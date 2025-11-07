@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="allowinsecures" translatable="false">
+        <item/>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="bypass_package_name">
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.qqlite</item>
+        <item>com.tencent.mobileqqi</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.taobao.taobao</item>
+        <item>com.sds.android.ttpod</item>
+        <item>com.sina.weibo</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.baidu.netdisk</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.baidu.navi</item>
+        <item>com.jingdong.app.mall</item>
+    </string-array>
+    <string-array name="bypass_private_ip_address" translatable="false">
+        <item>0.0.0.0/5</item>
+        <item>8.0.0.0/7</item>
+        <item>11.0.0.0/8</item>
+        <item>12.0.0.0/6</item>
+        <item>16.0.0.0/4</item>
+        <item>32.0.0.0/3</item>
+        <item>64.0.0.0/2</item>
+        <item>128.0.0.0/3</item>
+        <item>160.0.0.0/5</item>
+        <item>168.0.0.0/6</item>
+        <item>172.0.0.0/12</item>
+        <item>172.32.0.0/11</item>
+        <item>172.64.0.0/10</item>
+        <item>172.128.0.0/9</item>
+        <item>173.0.0.0/8</item>
+        <item>174.0.0.0/7</item>
+        <item>176.0.0.0/4</item>
+        <item>192.0.0.0/9</item>
+        <item>192.128.0.0/11</item>
+        <item>192.160.0.0/13</item>
+        <item>192.169.0.0/16</item>
+        <item>192.170.0.0/15</item>
+        <item>192.172.0.0/14</item>
+        <item>192.176.0.0/12</item>
+        <item>192.192.0.0/10</item>
+        <item>193.0.0.0/8</item>
+        <item>194.0.0.0/7</item>
+        <item>196.0.0.0/6</item>
+        <item>200.0.0.0/5</item>
+        <item>208.0.0.0/4</item>
+        <item>240.0.0.0/4</item>
+    </string-array>
+    <string-array name="compression_array"><item>No</item><item>Full</item><item>Downlink only</item></string-array>
+    <string-array name="compression_values"><item>no</item><item>yes</item><item>asym</item></string-array>
+    <string-array name="conn_timeout_array"><item>15 seconds</item><item>30 seconds</item><item>1 minute</item><item>2 minutes</item><item>Continuously retry</item></string-array>
+    <string-array name="conn_timeout_values"><item>15</item><item>30</item><item>60</item><item>120</item><item>0</item></string-array>
+    <string-array name="connection_states">
+        <item>Unknown</item>
+        <item>Authenticating</item>
+        <item>Authenticated</item>
+        <item>CONNECTING</item>
+        <item>Connected</item>
+        <item>Disconnected</item>
+        <item>Waiting for network</item>
+    </string-array>
+    <string-array name="core_loglevel" translatable="false">
+        <item>debug</item>
+        <item>info</item>
+        <item>warning</item>
+        <item>error</item>
+        <item>none</item>
+    </string-array>
+    <array name="dns_category">
+        <item>Google DNSS</item>
+        <item>Quad9 DNS</item>
+        <item>DNS.Watch</item>
+        <item>Cloudflare DNS</item>
+        <item>CleanBrosing DNS</item>
+        <item>OpenDns DNS</item>
+        <item>Safe DNS</item>
+        <item>AdGuard DNS</item>
+        <item>Comodo Secure</item>
+        <item>Vercara UltraDNS Public</item>
+        <item>Yandex.DNS</item>
+    </array>
+    <string-array name="flows" translatable="false">
+        <item/>
+        <item>xtls-rprx-vision</item>
+        <item>xtls-rprx-vision-udp443</item>
+    </string-array>
+    <string-array name="header_type_kcp_and_quic" translatable="false">
+        <item>none</item>
+        <item>srtp</item>
+        <item>utp</item>
+        <item>wechat-video</item>
+        <item>dtls</item>
+        <item>wireguard</item>
+    </string-array>
+    <string-array name="header_type_tcp" translatable="false">
+        <item>none</item>
+        <item>http</item>
+    </string-array>
+    <string-array name="ipv6_array"><item>Combined IPv4/IPv6 tunnel</item><item>IPv4-only tunnel</item><item>No preference</item></string-array>
+    <string-array name="ipv6_values"><item>yes</item><item>no</item><item>default</item></string-array>
+    <string-array name="language_select" translatable="false">
+        <item>auto</item>
+        <item>English</item>
+        <item>中文简体</item>
+        <item>中文繁體</item>
+        <item>Tiếng Việt</item>
+        <item>Русский</item>
+        <item>فارسی</item>
+    </string-array>
+    <string-array name="language_select_value" translatable="false">
+        <item>auto</item>
+        <item>en</item>
+        <item>zh-rCN</item>
+        <item>zh-rTW</item>
+        <item>vi</item>
+        <item>ru</item>
+        <item>fa</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>VPN</item>
+        <item>Proxy only</item>
+    </string-array>
+    <string-array name="mode_type_grpc" translatable="false">
+        <item>gun</item>
+        <item>multi</item>
+    </string-array>
+    <string-array name="mode_value" translatable="false">
+        <item>VPN</item>
+        <item>Proxy only</item>
+    </string-array>
+    <array name="network_proto">
+        <item>HTTP Proxy</item>
+        <item>UDP Hysteria</item>
+        <item>SlowDns</item>
+    </array>
+    <string-array name="networks" translatable="false">
+        <item>tcp</item>
+        <item>kcp</item>
+        <item>ws</item>
+        <item>h2</item>
+        <item>quic</item>
+        <item>grpc</item>
+    </string-array>
+    <string-array name="records">
+        <item>Record Type</item>
+        <item>A</item>
+        <item>AAAA</item>
+        <item>AFSDB</item>
+        <item>APL</item>
+        <item>CAA</item>
+        <item>CDNSKEY</item>
+        <item>CDS</item>
+        <item>CERT</item>
+        <item>CNAME</item>
+        <item>CSYNC</item>
+        <item>DHCID</item>
+        <item>DLV</item>
+        <item>DNAME</item>
+        <item>DNSKEY</item>
+        <item>DS</item>
+        <item>HINFO</item>
+        <item>HIP</item>
+        <item>IPSECKEY</item>
+        <item>KEY</item>
+        <item>KX</item>
+        <item>LOC</item>
+        <item>MX</item>
+        <item>NAPTR</item>
+        <item>NS</item>
+        <item>NSEC</item>
+        <item>NSEC3</item>
+        <item>NSEC3PARAM</item>
+        <item>OPENPGPKEY</item>
+        <item>PTR</item>
+        <item>RRSIG</item>
+        <item>RP</item>
+        <item>SIG</item>
+        <item>SOA</item>
+        <item>SRV</item>
+        <item>SSHFP</item>
+        <item>TA</item>
+        <item>TKEY</item>
+        <item>TLSA</item>
+        <item>TSIG</item>
+        <item>TXT</item>
+        <item>URI</item>
+    </string-array>
+    <string-array name="routing_domain_strategy" translatable="false">
+        <item>AsIs</item>
+        <item>IPIfNonMatch</item>
+        <item>IPOnDemand</item>
+    </string-array>
+    <string-array name="routing_mode">
+        <item>Global proxy</item>
+        <item>Bypassing the LAN address then proxy</item>
+        <item>Bypass mainland address then proxy</item>
+        <item>Bypassing LAN and mainland address then proxy</item>
+        <item>Global direct</item>
+    </string-array>
+    <string-array name="routing_mode_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="securitys" translatable="false">
+        <item>chacha20-poly1305</item>
+        <item>aes-128-gcm</item>
+        <item>auto</item>
+        <item>none</item>
+        <item>zero</item>
+    </string-array>
+    <array name="server_category">
+        <item>PREMIUM</item>
+        <item>VIP</item>
+        <item>PRIVATE</item>
+    </array>
+    <array name="server_type">
+        <item>OpenVPN</item>
+        <item>SSH</item>
+        <item>SlowDns</item>
+        <item>v2ray</item>
+        <item>UDP Hysteria</item>
+        <item>OpenConnect</item>
+    </array>
+    <string-array name="ss_securitys" translatable="false">
+        <item>aes-256-gcm</item>
+        <item>aes-128-gcm</item>
+        <item>chacha20-poly1305</item>
+        <item>chacha20-ietf-poly1305</item>
+        <item>xchacha20-poly1305</item>
+        <item>xchacha20-ietf-poly1305</item>
+        <item>none</item>
+        <item>plain</item>
+        <item>2022-blake3-aes-128-gcm</item>
+        <item>2022-blake3-aes-256-gcm</item>
+        <item>2022-blake3-chacha20-poly1305</item>
+    </string-array>
+    <array name="ssl_type">
+        <item>SSL/SNI</item>
+        <item>SSL+PAYLOAD</item>
+        <item>SSL+PROXY</item>
+    </array>
+    <string-array name="streamsecurity_alpn" translatable="false">
+        <item/>
+        <item>h2</item>
+        <item>http/1.1</item>
+        <item>h2,http/1.1</item>
+    </string-array>
+    <string-array name="streamsecurity_utls" translatable="false">
+        <item/>
+        <item>chrome</item>
+        <item>firefox</item>
+        <item>safari</item>
+        <item>ios</item>
+        <item>android</item>
+        <item>edge</item>
+        <item>360</item>
+        <item>qq</item>
+        <item>random</item>
+        <item>randomized</item>
+    </string-array>
+    <string-array name="streamsecuritys" translatable="false">
+        <item/>
+        <item>tls</item>
+    </string-array>
+    <string-array name="streamsecurityxs" translatable="false">
+        <item/>
+        <item>tls</item>
+        <item>reality</item>
+    </string-array>
+    <string-array name="tls_version_min_override_array"><item>Disabled</item><item>Profile Default</item><item>TLS 1.0</item><item>TLS 1.1</item><item>TLS 1.2</item></string-array>
+    <string-array name="tls_version_min_override_values"><item>disabled</item><item>default</item><item>tls_1_0</item><item>tls_1_1</item><item>tls_1_2</item></string-array>
+    <string-array name="vpn_proto_array"><item>Adaptive</item><item>UDP</item><item>TCP</item></string-array>
+    <string-array name="vpn_proto_values"><item>adaptive</item><item>udp</item><item>tcp</item></string-array>
+    <attr name="neomorph_layer_type">
+        <enum name="software" value="1"/>
+        <enum name="hardware" value="2"/>
+    </attr>
+    <attr name="neomorph_shadow_type">
+        <enum name="outer" value="1"/>
+        <enum name="inner" value="2"/>
+    </attr>
+    <attr name="neomorph_view_type">
+        <enum name="rectangular" value="1"/>
+        <enum name="circular" value="2"/>
+    </attr>
+    <color name="background_color">#fff5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#333333</color>
+    <color name="colorAccent">@color/main_color</color>
+    <color name="colorBG">#fff5f5f5</color>
+    <color name="colorPrimary">@color/main_color</color>
+    <color name="colorPrimaryDark">@color/main_color</color>
+    <color name="colorText">#ff232323</color>
+    <color name="color_text_light">#ff232323</color>
+    <color name="connect_color">#008000</color>
+    <color name="dataIn">#FF00FF6A</color>
+    <color name="dataOut">#D51212</color>
+    <color name="flag_iv_color_dark">#212121</color>
+    <color name="flag_iv_color_light">#EFEFEF</color>
+    <color name="grey_500">#818181</color>
+    <color name="grey_800">#252525</color>
+    <color name="hint_d">#616161</color>
+    <color name="hint_l">#CBCBCB</color>
+    <color name="home_button_gradiant_end">#E6E5E5</color>
+    <color name="home_button_gradiant_start">#FBFAFA</color>
+    <color name="ic_banner_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="main_color">#B8860B</color>
+    <color name="nana">#ff232323</color>
+    <color name="neomorph_background_color">#9C27B0</color>
+    <color name="neomorph_highlight_color">#9C27B0</color>
+    <color name="neomorph_shadow_color">#DDD9DE</color>
+    <color name="primary_color">#ffcfd3d6</color>
+    <color name="prog_dark">#333333</color>
+    <color name="prog_light">#E8E8E8</color>
+    <color name="prog_trans_dark">#A4333333</color>
+    <color name="prog_trans_light">#9F919191</color>
+    <color name="shapeEnd">#ffcfd8dc</color>
+    <color name="status_color">#ff0000</color>
+    <color name="switch_light">#4D354653</color>
+    <color name="text_color">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#4f7a7a7a</color>
+    <color name="transparent2">#9c7a7a7a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_light">#f5f5f5</color>
+    <color name="windowBackground_dark">#171717</color>
+    <color name="windowBackground_light">#FFFFFF</color>
+    <color name="window_nav_light">#E8E8E8</color>
+    <dimen name="neomorph_view_corner_radius">16dp</dimen>
+    <dimen name="neomorph_view_corner_radius_circle">500dp</dimen>
+    <dimen name="neomorph_view_elevation">6dp</dimen>
+    <string name="_0bit">0bit</string>
+    <string formatted="false" name="about_text">VPN %s (build %d)</string>
+    <string name="add_routes">Adding routes</string>
+    <string name="allow_vpn_changes">Allow changes to VPN Profiles</string>
+    <string name="app_colors">App colors</string>
+    <string name="app_mobile_info">MTK Apk Version: %1$s %2$s</string>
+    <string name="app_name">RA DEVELOPER</string>
+    <string name="app_tile_first_use">First use of this feature, please use the app to add server</string>
+    <string name="app_unlicensed">This app is not licensed</string>
+    <string name="app_unlicensed_close">Close</string>
+    <string name="app_unlicensed_description">This application is not licensed nor valid. Please download the app from a trusted source.</string>
+    <string name="assign_ip">Assigning IP address</string>
+    <string name="auto_keyboard_summary">Automatically raise/dismiss soft keyboard</string>
+    <string name="auto_keyboard_title">Auto Keyboard</string>
+    <string name="auto_ping">Auto Ping</string>
+    <string name="autologin_suffix">/autologin</string>
+    <string name="autostart_finish_on_connect_summaFtitle">Shortcut Minimize</string>
+    <string name="autostart_summary">If a VPN connection is active on device shutdown, try to reconnect it on reboot</string>
+    <string name="autostart_title">Reconnect on reboot</string>
+    <string name="bad_rom_comment_prompt">If you have customized your device in any way (rooting, ROM, Xposed) please note the changes below:</string>
+    <string name="bad_rom_text">Unfortunately your Android device does not have proper VpnService support.  If you click OK we will report this to the vendor, but they may or may not fix the bug.</string>
+    <string name="beta_expire_warn">Note: This beta expires on %s</string>
+    <string name="bits_per_second">%.0f bit/s</string>
+    <string name="btn_0bit">0bit</string>
+    <string name="btn_1_0">1.0</string>
+    <string name="btn_bit">0 bit</string>
+    <string name="btn_duration">Duration:</string>
+    <string name="btn_password">Password</string>
+    <string name="btn_settingsicon">SettingsIcon</string>
+    <string name="btn_timer">00:00:00</string>
+    <string name="btn_username">Username</string>
+    <string name="build">Build by : Dexter Eskalarte</string>
+    <string name="bytes_in">Bytes in</string>
+    <string name="bytes_out">Bytes out</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannotparsecert">Cannot display certificate information</string>
+    <string name="category_forward_dns">DNS Forwarding</string>
+    <string name="category_forward_udp">UDP Forwarding</string>
+    <string name="category_settings_adicionais">Additional Settings</string>
+    <string name="cert_error_header_text">Certificate error:</string>
+    <string name="cert_profile_insecure_summary">Enable support for MD5 signatures of X509 certificates. Note that MD5 is broken and should not be used</string>
+    <string name="cert_profile_insecure_title">Use insecure algorithms</string>
+    <string name="cert_verify_fail">Server certificate verification failed</string>
+    <string name="cert_warn_accept">Accept</string>
+    <string name="cert_warn_reject">Reject</string>
+    <string name="cert_warn_title">Accept Invalid Certificate?</string>
+    <string name="cert_warning_always_connect">Always connect</string>
+    <string name="cert_warning_just_once">Just once</string>
+    <string name="cert_warning_message">The certificate from VPN server \"%1$s\" failed verification.\n\nReason: \"%2$s\"\nSHA1: %3$s\n\nConnect anyway?</string>
+    <string name="cert_warning_title">Certificate warning</string>
+    <string name="channel_description">VPN notifications</string>
+    <string name="channel_description_background">Ongoing statistics of the established Raja Boss VPN connection</string>
+    <string name="channel_description_status">Status changes of the SocksHttp connection (Connecting, authenticating,…)</string>
+    <string name="channel_description_userreq">SocksHttp connection requires a user input, e.g. two factor authentification</string>
+    <string name="channel_name">@string/app_name</string>
+    <string name="channel_name_background">Raja Boss VPN Connection statistics</string>
+    <string name="channel_name_status">Connection status change</string>
+    <string name="channel_name_userreq">User interaction required</string>
+    <string name="check_config">Check config</string>
+    <string name="client_halt">VPN was halted by server</string>
+    <string name="client_ip">Client IP</string>
+    <string name="client_restart">VPN was restarted by server</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="common_name">Common name:</string>
+    <string name="compression_summary">Tunnel compression options</string>
+    <string name="compression_title">Compression</string>
+    <string name="config_file_parse_error">Error parsing VPN configuration file</string>
+    <string name="config_version">Config Version:</string>
+    <string name="conn_timeout_summary">How long should VPN try to connect before giving up?</string>
+    <string name="conn_timeout_title">Connection Timeout</string>
+    <string name="connection_test_available">Success: HTTPS handshake took</string>
+    <string name="connection_test_error">Fail to detect internet connection: %s</string>
+    <string name="connection_test_error_status_code">Error code: #%d</string>
+    <string name="connection_test_fail">Fail to detect internet</string>
+    <string name="connection_test_testing">Testing…</string>
+    <string name="core_thread_abandoned">VPN Disconnected (core thread detached)</string>
+    <string name="core_thread_error">VPN core error</string>
+    <string name="cr_cancel">Cancel</string>
+    <string name="cr_continue">Continue</string>
+    <string name="cr_error">Error rendering challenge/response</string>
+    <string name="cr_title">Server Challenge</string>
+    <string name="create_shortcut_cancel">Cancel</string>
+    <string name="create_shortcut_prompt">Profile shortcut name:</string>
+    <string name="create_shortcut_title">Create Connect Shortcut</string>
+    <string name="create_shortcut_yes">Create Shortcut</string>
+    <string name="creds_error">VPN credentials error</string>
+    <string name="custom_port">( Custom Port )</string>
+    <string name="custom_route_format_error">Error parsing the custom routes</string>
+    <string name="days_left">%d days left</string>
+    <string name="delete_profile_confirm_cancel">Cancel</string>
+    <string name="delete_profile_confirm_title">Confirm Delete Profile</string>
+    <string name="delete_profile_confirm_yes">Delete</string>
+    <string name="deprecated_tls_remote">Config uses option tls-remote that was deprecated in 2.3 and finally removed in 2.4</string>
+    <string name="dns_test">DNS Test</string>
+    <string name="download">Download</string>
+    <string name="duration">Duration</string>
+    <string name="dynamic_challenge">VPN Authentication Challenge</string>
+    <string name="enable_notifications_summary">Show notifications</string>
+    <string name="enable_notifications_title">Notifications</string>
+    <string name="epki_error">External PKI error</string>
+    <string name="epki_invalid_alias">Lost KeyChain association with profile certificate and private key. Please retry login.</string>
+    <string name="epki_missing_cert">Cannot obtain profile certificate from KeyChain</string>
+    <string name="error_cant_connect">Error connecting to host \'%1$s\'. See log for details.</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_invalid_hostname">Invalid hostname \'%1$s\'</string>
+    <string name="expires_on">Expires on:</string>
+    <string name="expiry_0_days">Expiry: --/--/-- | 0 Days</string>
+    <string name="fast_and_secure">fast and secure</string>
+    <string name="file_dialog_cancel">Cancel</string>
+    <string name="file_dialog_cant_read_folder">Cannot read folder</string>
+    <string name="file_dialog_create">Save</string>
+    <string name="file_dialog_file_name">File name:</string>
+    <string name="file_dialog_location">Location</string>
+    <string name="file_dialog_new">New</string>
+    <string name="file_dialog_no_data">No Data</string>
+    <string name="file_dialog_select">Select</string>
+    <string name="file_read_error">Cannot read file</string>
+    <string formatted="false" name="file_too_large">file %s too large (cannot exceed %d bytes)</string>
+    <string name="filter_apps">Filter Apps</string>
+    <string name="filter_config_all">All subscription groups</string>
+    <string name="fingerprints">Fingerprints:</string>
+    <string name="force_aes_cbc_ciphersuites_summary">Enabling this option can sometimes help when connecting to legacy servers.</string>
+    <string name="force_aes_cbc_ciphersuites_title">Force AES-CBC ciphersuites</string>
+    <string name="gbits_per_second">%.1f Gbit/s</string>
+    <string name="gcm_defaultSenderId" translatable="false">97244567767</string>
+    <string name="get_config">Pulling settings from server</string>
+    <string name="getproxy_error">Error getting proxy settings: %s</string>
+    <string name="google_api_key" translatable="false">AIzaSyAsuq_TJDAUEYQPQQFxGTes5Rgqj2A1lzg</string>
+    <string name="google_app_id" translatable="false">1:97244567767:android:966e2402669ee8ba02f892</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAsuq_TJDAUEYQPQQFxGTes5Rgqj2A1lzg</string>
+    <string name="google_dns_fallback_summary">"Use Google DNS servers as a fallback for connections that route all internet traffic through the VPN tunnel but don't define any VPN DNS servers"</string>
+    <string name="google_dns_fallback_title">DNS Fallback</string>
+    <string name="google_storage_bucket" translatable="false">new-src-test-21.firebasestorage.app</string>
+    <string name="hours_left">%d hours left</string>
+    <string name="http_proxy">HTTP PROXY</string>
+    <string name="https_client_task_error">HTTPS client task error</string>
+    <string name="import_config">import config</string>
+    <string name="import_help_text">To create a shortcut to this profile or access the profile context menu (for rename, delete, etc.), touch the edit icon on the right. To switch to a different profile, tap the profile name briefly.</string>
+    <string name="import_help_title">Profile Imported</string>
+    <string name="inactive_timeout">VPN Inactivity Disconnect</string>
+    <string name="info_group_header">Connection info:</string>
+    <string name="info_msg">Info</string>
+    <string name="ip_hunt">IP Hunt</string>
+    <string name="ipv4_addr">IPv4</string>
+    <string name="ipv4_format_error">Error parsing the IPv4 address</string>
+    <string name="ipv6_addr">IPv6</string>
+    <string name="ipv6_summary">IPv6 tunnel preference.</string>
+    <string name="ipv6_title">IPv6</string>
+    <string name="issued_by">Issued by:</string>
+    <string name="issued_on">Issued on:</string>
+    <string name="issued_to">Issued to:</string>
+    <string name="jelly_keystore_alphanumeric_bug">Some versions of Android 4.1 have problems if the name of the keystore certificate contains non alphanumeric characters (like spaces, underscores or dashes). Try to reimport the certificate without special characters</string>
+    <string name="kbits_per_second">%.1f kbit/s</string>
+    <string name="keychain_access">Cannot access the Android Keychain Certificates. This can be caused by a firmware upgrade or by restoring a backup of the app/app settings. Please edit the VPN and reselect the certificate under basic settings to recreate the permission to access the certificate.</string>
+    <string name="last_pkt_recv">Packet received</string>
+    <string name="livedata">LiveData</string>
+    <string name="login_title">%s login</string>
+    <string name="lpr_1_sec_ago">1 second ago</string>
+    <string name="lpr_gt_1_hour_ago">> 1 hour ago</string>
+    <string name="lpr_gt_n_min_ago">> %d minutes ago</string>
+    <string name="lpr_lt_1_sec_ago">&lt; 1 second ago</string>
+    <string name="lpr_n_sec_ago">%d seconds ago</string>
+    <string name="mbits_per_second">%.1f Mbit/s</string>
+    <string name="missing_ca_certificate">Missing CA certificate</string>
+    <string name="missing_certificates">Missing user certificate or user certifcate key file</string>
+    <string name="missing_tlsauth">tls-auth file is missing</string>
+    <string name="mobile_info">Running on %1$s (%2$s), Android %3$s API %4$d</string>
+    <string name="mobile_network">Mobile network</string>
+    <string name="months_left">%d months left</string>
+    <string name="mtk">RA DEVELOPER</string>
+    <string name="need_creds_error">VPN credentials required but none provided</string>
+    <string name="network">Network</string>
+    <string name="networks">( NETWORKS )</string>
+    <string name="no">No</string>
+    <string name="no_ca_cert_selected">You must select a CA certificate</string>
+    <string name="no_error_found">No error found</string>
+    <string name="no_keystore_cert_selected">You must select a User certificate</string>
+    <string name="no_profile_types">No recognized profile types available</string>
+    <string name="no_profiles_loaded">Welcome to VPN. VPN requires a .ovpn profile to connect to a server. Please go to Menu / Import to import a profile or Menu / Help for more information.</string>
+    <string name="notification_initial_content">@string/app_name</string>
+    <string name="ok">OK</string>
+    <string name="openvpn_ad">VPN Solution for your Business</string>
+    <string name="openvpn_link">http://openvpn.net/as/</string>
+    <string name="openvpn_settings">OpenVPN Settings</string>
+    <string name="org_name">Organization:</string>
+    <string name="org_unit">Organizational unit:</string>
+    <string name="password">Password:</string>
+    <string name="password_save_prompt">Save</string>
+    <string name="paste_config">Paste config</string>
+    <string name="pause">Pausing (waiting for network)</string>
+    <string name="pause_vpn_on_blanked_screen_summary">Pause VPN when screen is blanked</string>
+    <string name="pause_vpn_on_blanked_screen_title">Battery Saver</string>
+    <string name="payload_hint">CONNECT [host_port] [protocol][crlf]Host: m.google.com[crlf][crlf]</string>
+    <string name="pem_password_fail">Bad private key password</string>
+    <string name="pk_password">Private Key Password:</string>
+    <string name="pk_password_save_prompt">Save</string>
+    <string name="pkcs12_file_encryption_key">PKCS12 File Encryption Key</string>
+    <string name="priv">Private</string>
+    <string name="private_key_password">Private Key Password</string>
+    <string name="privatetunnel_ad">Your Secure and Private Path to the Internet</string>
+    <string name="privatetunnel_link">https://www.privatetunnel.com/</string>
+    <string name="profile_conflict">Conflicts with one that is already connected</string>
+    <string name="profile_context_cancel">Cancel</string>
+    <string name="profile_context_forget_creds">Forget Credentials</string>
+    <string name="profile_context_menu_change_profile">Select Another Profile</string>
+    <string name="profile_context_menu_create_shortcut">Create Connect Shortcut</string>
+    <string name="profile_context_menu_delete">Delete Profile</string>
+    <string name="profile_context_menu_rename">Rename Profile</string>
+    <string name="profile_context_none_selected">No Profile Selected</string>
+    <string name="profile_delete_failed">Failed to delete profile</string>
+    <string name="profile_delete_success">Profile successfully deleted</string>
+    <string name="profile_filename_error">Profile filename must have extension .ovpn</string>
+    <string name="profile_import_error">Profile Import Error</string>
+    <string name="profile_import_invalid_cert">Site has invalid SSL certificate</string>
+    <string name="profile_import_success">Profile successfully imported</string>
+    <string name="profile_merge_exception">Profile import failed</string>
+    <string name="profile_merge_multiple_ref_fail">Error reading multiple files referenced by profile</string>
+    <string name="profile_merge_ovpn_ext_fail">Profile filename must have extension .ovpn</string>
+    <string name="profile_merge_ovpn_file_fail">Error reading profile</string>
+    <string name="profile_merge_ref_fail">Error reading file referenced by profile</string>
+    <string name="profile_not_found">Profile not found</string>
+    <string name="profile_parse_error">Error parsing Profile</string>
+    <string name="profile_prompt">Profile:</string>
+    <string name="profile_rename_failed">Failed to rename profile</string>
+    <string name="profile_rename_success">Profile successfully renamed</string>
+    <string name="profile_too_large">Profile is too large (cannot exceed %d bytes)</string>
+    <string name="profile_type_autologin">Autologin profile</string>
+    <string name="profile_type_epki">External certificate profile</string>
+    <string name="profile_type_standard">Standard profile</string>
+    <string name="profile_write_error">Error writing Profile to app storage</string>
+    <string name="project_id" translatable="false">new-src-test-21</string>
+    <string name="prompt">%1$s attempts to control %2$s</string>
+    <string name="proxy_context_cancel">Cancel</string>
+    <string name="proxy_context_change_proxy">Select Another Proxy</string>
+    <string name="proxy_context_delete">Delete Proxy</string>
+    <string name="proxy_context_edit">Edit Proxy</string>
+    <string name="proxy_context_expired">Proxy Login Expired</string>
+    <string name="proxy_context_forget_creds">Forget Credentials</string>
+    <string name="proxy_context_none_selected">No Proxy Selected</string>
+    <string name="proxy_delete_confirm_cancel">Cancel</string>
+    <string name="proxy_delete_confirm_title">Confirm Delete Proxy</string>
+    <string name="proxy_delete_confirm_yes">Delete</string>
+    <string name="proxy_error">Proxy error</string>
+    <string name="proxy_need_creds">Proxy credentials required</string>
+    <string name="proxy_none">None</string>
+    <string name="proxy_prompt">Proxy:</string>
+    <string name="reconnecting">Reconnecting</string>
+    <string name="release_note">Release note</string>
+    <string name="remote_no_server_selected">You need to define and enable at least one remote server.</string>
+    <string name="remote_trust">I trust this application.</string>
+    <string name="remote_warning">By proceeding, you are giving the application permission to completely control OpenConnect for Android and to intercept all network traffic. <b> Do NOT accept unless you trust the application. </b> Otherwise, you run the risk of having your data compromised by malicious software."</string>
+    <string name="rename_profile_cancel">Cancel</string>
+    <string name="rename_profile_title">Rename Profile</string>
+    <string name="rename_profile_yes">Rename</string>
+    <string name="resolve">Looking up DNS name</string>
+    <string name="resume">Resuming after pause</string>
+    <string name="save_password">Save Password</string>
+    <string name="secure_shell_ssh">Secure Shell (SSH)</string>
+    <string name="select_pkcs12">Please select PKCS#12 file to import</string>
+    <string name="select_profile">Please select .ovpn profile to import</string>
+    <string name="serial_number">Serial number:</string>
+    <string name="server">Server</string>
+    <string name="server_host">Server</string>
+    <string name="server_ip">Server IP</string>
+    <string name="server_port">Port</string>
+    <string name="server_prompt">Server:</string>
+    <string name="server_proto">Protocol</string>
+    <string name="servers">( SERVERS )</string>
+    <string name="settings">Settings</string>
+    <string name="sha1_fingerprint">SHA-1 fingerprint:</string>
+    <string name="sha256_fingerprint">SHA-256 fingerprint:</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_auth_pending">Waiting for Autentication</string>
+    <string name="state_auth_success">Authenticated</string>
+    <string name="state_connected">Connected</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_connection_timeout">Connection Timeout</string>
+    <string name="state_disconnected">Disconnected</string>
+    <string name="state_get_config">Getting client configuration</string>
+    <string name="state_nonetwork">Waiting for network</string>
+    <string name="state_noprocess">Not running</string>
+    <string name="state_pause">Pausing (waiting for network)</string>
+    <string name="state_proxy_inject">Injecting</string>
+    <string name="state_proxy_running">Running proxy</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_resume">Resuming after pause</string>
+    <string name="state_starting">starting</string>
+    <string name="state_stopping">stopping</string>
+    <string name="state_unknown">Unknown event occurred</string>
+    <string name="state_wait">Waiting for server response</string>
+    <string name="state_waiting_connection">Waiting for connection</string>
+    <string name="stats_group_header">Connection stats:</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="statusline_bytecount">down:%2$s(%1$s) - up:%4$s(%3$s)</string>
+    <string name="summary_auto_clear_log">If I activate the Records they will be deleted automatically.</string>
+    <string name="summary_disable_delay_ssh">If active there will be no delays between requests, which can improve ping or even the speed of the connection.</string>
+    <string name="summary_forward_dns">If active, redirect requests to the remote server. If not, DNS will be used by the local system.</string>
+    <string name="summary_forward_udp">Redirection was activated for the remote server. If not, UDP wont work.</string>
+    <string name="summary_number_max_threads">The higher the number of Threads, the higher the power consumption and the connection speed on your device.</string>
+    <string name="summary_pref_allow_insecure">When TLS, the default allowInsecure</string>
+    <string name="summary_pref_confirm_remove">Whether to delete the configuration file requires a second confirmation by the user</string>
+    <string name="summary_pref_domestic_dns">DNS</string>
+    <string name="summary_pref_fake_dns_enabled">local DNS returns fake IP address (faster, but it may not work for some apps)</string>
+    <string name="summary_pref_feedback">Feedback enhancements or bugs to GitHub</string>
+    <string name="summary_pref_http_port">HTTP proxy port</string>
+    <string name="summary_pref_local_dns_enabled">DNS processed by core‘s DNS module (Recommended, if need routing Bypassing LAN and
+        mainland address)</string>
+    <string name="summary_pref_local_dns_port">Local DNS port</string>
+    <string name="summary_pref_mux_enabled">Enable maybe speed up network and switch network maybe flash</string>
+    <string name="summary_pref_per_app_proxy">General: Checked App is proxy, unchecked direct connection; \nbypass mode: checked app directly connected, unchecked proxy. \nThe option to automatically select the proxy application in the menu</string>
+    <string name="summary_pref_prefer_ipv6">Prefer IPv6 address and routes</string>
+    <string name="summary_pref_promotion">Promotion,click for details(Donation can be removed)</string>
+    <string name="summary_pref_proxy_sharing_enabled">Other devices can connect to proxy by your ip address through socks/http, Only enable in trusted network to avoid unauthorized connection</string>
+    <string name="summary_pref_remote_dns">DNS</string>
+    <string name="summary_pref_sniffing_enabled">Try sniff domain from the packet (default on)</string>
+    <string name="summary_pref_socks_port">SOCKS5 proxy port</string>
+    <string name="summary_pref_speed_enabled">Display default current speed in the notification.\nNotification icon would change based on
+        usage.</string>
+    <string name="summary_pref_start_scan_immediate">Open the camera to scan immediately at startup, otherwise you can choose to scan the code or select a photo in the toolbar</string>
+    <string name="summary_pref_tg_group">Join Telegram Group</string>
+    <string name="summary_resolver_udp">Pattern (7300)</string>
+    <string name="summary_tethering_subnet">Enable it if youre having trouble sharing your devices internet.</string>
+    <string name="tap_not_supported">TAP-based tunnels are not supported</string>
+    <string name="tap_unsupported_error">"Sorry, but the Android VPN API doesn't currently support TAP-based tunnels."</string>
+    <string name="tap_unsupported_title">Problem creating TAP tunnel</string>
+    <string name="tasker_setting_confirm">Confirm</string>
+    <string name="title_advanced">Advanced Settings</string>
+    <string name="title_auto_clear_log">Automatically Clear Logs</string>
+    <string name="title_core_loglevel">Log Level</string>
+    <string name="title_del_duplicate_config_count">Delete %d duplicate configurations</string>
+    <string name="title_disable_delay_ssh">Disable TCP Delay</string>
+    <string name="title_filter_config">Filter configuration file</string>
+    <string name="title_forward_dns">Forward DNS</string>
+    <string name="title_forward_udp">UDP Forwarding</string>
+    <string name="title_language">Language</string>
+    <string name="title_mode">Mode</string>
+    <string name="title_mode_help">Click me for more help</string>
+    <string name="title_number_max_threads">Maximum number of Threads</string>
+    <string name="title_pref_allow_insecure">allowInsecure</string>
+    <string name="title_pref_confirm_remove">Delete configuration file confirmation</string>
+    <string name="title_pref_domestic_dns">Domestic DNS (Optional)</string>
+    <string name="title_pref_fake_dns_enabled">Enable fake DNS</string>
+    <string name="title_pref_feedback">Feedback</string>
+    <string name="title_pref_http_port">HTTP proxy port</string>
+    <string name="title_pref_local_dns_enabled">Enable local DNS</string>
+    <string name="title_pref_local_dns_port">Local DNS port</string>
+    <string name="title_pref_mux_enabled">Enable Mux</string>
+    <string name="title_pref_per_app_proxy">Per-app proxy</string>
+    <string name="title_pref_prefer_ipv6">Prefer IPv6</string>
+    <string name="title_pref_promotion">Promotion</string>
+    <string name="title_pref_proxy_sharing_enabled">Allow connections from the LAN</string>
+    <string name="title_pref_remote_dns">Remote DNS (Optional)</string>
+    <string name="title_pref_routing">Routing</string>
+    <string name="title_pref_routing_custom">Custom rules</string>
+    <string name="title_pref_routing_domain_strategy">Domain strategy</string>
+    <string name="title_pref_routing_mode">Predefined rules</string>
+    <string name="title_pref_sniffing_enabled">Enable Sniffing</string>
+    <string name="title_pref_socks_port">SOCKS5 proxy port</string>
+    <string name="title_pref_speed_enabled">Enable default current speed</string>
+    <string name="title_pref_start_scan_immediate">Start scanning immediately</string>
+    <string name="title_pref_vpn_dns">VPN DNS (only IPv4/v6)</string>
+    <string name="title_resolver_udp">UDP Gateway (Remote)</string>
+    <string name="title_tethering_subnet">Tethering Subnet (beta)</string>
+    <string name="title_ui_settings">UI settings</string>
+    <string name="title_vpn_settings">VPN Settings</string>
+    <string name="tls_version_min">Server TLS version is too low</string>
+    <string name="tls_version_min_override_summary">Select the minimum SSL/TLS version for communication with the OpenVPN Server.</string>
+    <string name="tls_version_min_override_title">Minimum TLS version</string>
+    <string name="toast_asset_copy_failed">File copy failed, please use File Manager</string>
+    <string name="toast_config_file_invalid">Invalid Config</string>
+    <string name="toast_decoding_failed">Decoding failed</string>
+    <string name="toast_failure">Failure</string>
+    <string name="toast_incorrect_protocol">Incorrect protocol</string>
+    <string name="toast_invalid_url">Invalid URL</string>
+    <string name="toast_malformed_josn">Config malformed</string>
+    <string name="toast_none_data">There is nothing</string>
+    <string name="toast_none_data_clipboard">There is no data in the clipboard</string>
+    <string name="toast_permission_denied">Unable to obtain the permission</string>
+    <string name="toast_require_file_manager">Please install a File Manager.</string>
+    <string name="toast_services_failure">Start Services Failure</string>
+    <string name="toast_services_start">Start Services</string>
+    <string name="toast_success">Success</string>
+    <string name="toast_tg_app_not_found">Telegram app not found</string>
+    <string name="toast_warning_pref_proxysharing_short">Allow connections from the LAN, Make sure you are in a trusted network</string>
+    <string name="touch_less">Tap for less detail</string>
+    <string name="touch_more">Tap for more detail</string>
+    <string name="trademark">VPN is a registered trademark of VPN Technologies, Inc.</string>
+    <string name="tun_iface_create">Error creating tun interface</string>
+    <string name="tun_ko_error">Possibly the tun.ko kernel module is not loaded in your Android kernel.</string>
+    <string name="tun_ko_title">Problem creating TUN interface</string>
+    <string name="tun_persist_summary">Block internet while VPN is paused or reconnecting (Note: Android versions 4.4 to 4.4.2 have a bug that prevents use of this option)</string>
+    <string name="tun_persist_title">Seamless Tunnel</string>
+    <string name="tun_setup_failed">Tun interface setup failed</string>
+    <string name="tunnel">MTK V24</string>
+    <string name="tunnel_type">Tunnel type</string>
+    <string name="ui_reset">UI Reset</string>
+    <string name="unknowns_network">Unknowns network</string>
+    <string name="upload">Upload</string>
+    <string name="user">User</string>
+    <string name="username">Username:</string>
+    <string name="validity_period">Validity:</string>
+    <string name="volume_byte">%.0f B</string>
+    <string name="volume_gbyte">%.1f GB</string>
+    <string name="volume_kbyte">%.1f kB</string>
+    <string name="volume_mbyte">%.1f MB</string>
+    <string name="vpn_permission_dialog_missing_text">Sorry, due to a known bug in this version of Android, it is not possible to gain permission to open a VPN tunnel</string>
+    <string name="vpn_permission_dialog_missing_title">Android Bug</string>
+    <string name="vpn_proto_summary">Select the VPN Protocol</string>
+    <string name="vpn_proto_title">VPN Protocol</string>
+    <string name="wait">Waiting for server</string>
+    <string name="wait_proxy">Waiting for proxy server</string>
+    <string name="warn_msg">Warning</string>
+    <string name="warning_title">Warning!</string>
+    <string name="wifi_tethering">Wifi Tethering</string>
+    <string name="yes">Yes</string>
+    <string name="your_account">( YOUR ACCOUNT )</string>
+    <style name="AppAlertDialog_Dark" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowBackground">@drawable/bg_round_d</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">#D9D9D9</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">2.5</item>
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+    <style name="AppAlertDialog_Light" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowBackground">@drawable/bg_round_l</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#292929</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">2.5</item>
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+    </style>
+    <style name="AppAlertDialog_full_Dark" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">#D9D9D9</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">2.5</item>
+        <item name="android:windowBackground">@color/black_light</item>
+    </style>
+    <style name="AppAlertDialog_full_Light" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">#292929</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowRadius">2.5</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:checkboxStyle">@style/CustomCheckBoxStyle</item>
+        <item name="android:textColorHint">@color/colorText</item>
+        <item name="android:checkedButton">@style/CustomCheckBoxStyle</item>
+        <item name="android:textAppearanceSearchResultTitle">@color/colorText</item>
+        <item name="android:popupMenuStyle">@style/myPopupMenuStyle</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+        <item name="android:editTextColor">@color/colorText</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="popupMenuStyle">@style/myPopupMenuStyle</item>
+        <item name="alertDialogTheme">@style/AppAlertDialog_Light</item>
+        <item name="textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+        <item name="textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+    </style>
+    <style name="CustomCheckBoxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">#ffff0000</item>
+        <item name="android:paddingLeft">8.0dip</item>
+    </style>
+    <style name="MenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:itemBackground">@color/background_color</item>
+        <item name="android:popupBackground">@color/background_color</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="PositiveButtonStyle" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffd81b60</item>
+        <item name="rippleColor">#ffad1457</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor" ns1:targetApi="21">@color/white</item>
+    </style>
+    <style name="TextViewTheme_dark" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/grey_500</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="TextViewTheme_light" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey_500</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ToolbarSubtitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/grey_800</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="android:textColorHint">#6B6B6B</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+    <style name="ToolbarTitleTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/grey_800</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="WindowTitleStyle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="alertDialog">
+        <item name="android:windowEnterAnimation">@anim/bounce</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="fix_dialog_alert_style" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/window</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="colorAccent">@color/primary_color</item>
+    </style>
+    <style name="mPopupOverlay_d" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">#484848</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowBackground">#212121</item>
+    </style>
+    <style name="mPopupOverlay_l" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:fontFamily">@font/harliefont</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="myPopupMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:itemBackground">@color/background_color</item>
+        <item name="android:popupBackground">@color/background_color</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+    <style name="myPopupMenuTextAppearanceLarge" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"><item name="android:textColor">#ff000000</item><item name="android:itemBackground">@color/white</item></style>
+    <style name="myPopupMenuTextAppearanceSmall" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"><item name="android:textColor">#ff000000</item><item name="android:itemBackground">@color/white</item></style>
+    <declare-styleable name="CircleProgressBar">
+        <attr format="integer" name="min"/>
+        <attr format="integer" name="max"/>
+        <attr format="integer" name="progress"/>
+        <attr format="color" name="progressbarColor"/>
+        <attr format="dimension" name="progressBarThickness"/>
+    </declare-styleable>
+    <declare-styleable name="DataGraph">
+        <attr format="color" name="dg_colorDown"/>
+        <attr format="color" name="dg_colorUp"/>
+        <attr format="color" name="dg_colorText"/>
+    </declare-styleable>
+    <declare-styleable name="Graph">
+        <attr format="color" name="lineColor"/>
+        <attr format="color" name="lineUpColor"/>
+        <attr format="color" name="lineDownColor"/>
+    </declare-styleable>
+    <declare-styleable name="ListSwipeItem">
+        <attr format="integer" name="swipeViewId"/>
+        <attr format="integer" name="leftViewId"/>
+        <attr format="integer" name="rightViewId"/>
+    </declare-styleable>
+    <declare-styleable name="NeomorphFrameLayout">
+        <attr name="neomorph_view_type"/>
+        <attr name="neomorph_shadow_type"/>
+        <attr format="dimension" name="neomorph_elevation"/>
+        <attr format="dimension" name="neomorph_corner_radius"/>
+        <attr format="color" name="neomorph_background_color"/>
+        <attr format="color" name="neomorph_shadow_color"/>
+        <attr format="color" name="neomorph_highlight_color"/>
+        <attr name="neomorph_layer_type"/>
+        <attr format="boolean" name="neomorph_shadow_visible"/>
+    </declare-styleable>
+    <declare-styleable name="RotateLoading">
+        <attr format="dimension" name="loading_width"/>
+        <attr format="color" name="loading_color"/>
+        <attr format="dimension" name="shadow_offset"/>
+        <attr format="boolean" name="loading_visible"/>
+    </declare-styleable>
+    <declare-styleable name="RoundCorner">
+        <attr format="dimension" name="cornerRadius"/>
+        <attr format="boolean" name="topEnabled"/>
+        <attr format="boolean" name="bottomEnabled"/>
+        <attr format="boolean" name="topLeftEnabled"/>
+        <attr format="boolean" name="topRightEnabled"/>
+        <attr format="boolean" name="bottomLeftEnabled"/>
+        <attr format="boolean" name="bottomRightEnabled"/>
+    </declare-styleable>
+    <declare-styleable name="SnakeView">
+        <attr format="color" name="strokeColor"/>
+        <attr format="color" name="fillColor"/>
+        <attr format="dimension" name="strokeWidth"/>
+        <attr format="float" name="minValue"/>
+        <attr format="float" name="maxValue"/>
+        <attr format="integer" name="maximumNumberOfValues"/>
+        <attr format="integer" name="animationDuration"/>
+        <attr name="scaleMode">
+            <enum name="fixed" value="0"/>
+            <enum name="auto" value="1"/>
+        </attr>
+        <attr name="chartStyle">
+            <enum name="stroke" value="0"/>
+            <enum name="fill" value="1"/>
+            <enum name="fill_stroke" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

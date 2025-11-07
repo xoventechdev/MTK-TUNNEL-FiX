@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/cogs"
+        android:id="@+id/options"
+        android:title="@string/settings" />
+    <item
+        android:icon="@drawable/ic_playstore"
+        android:id="@+id/item_app"
+        android:title="Application link" />
+    <item
+        android:icon="@drawable/ic_update"
+        android:id="@+id/item_checkupdates"
+        android:title="Check updates" />
+    <item
+        android:icon="@drawable/ic_file_normal"
+        android:id="@+id/item_paste"
+        android:title="Paste Config" />
+    <item
+        android:icon="@drawable/ic_file_import"
+        android:id="@+id/item_im"
+        android:title="Import" />
+    <item
+        android:visible="false"
+        android:icon="@drawable/ic_file_export"
+        android:id="@+id/item_ex"
+        android:title="Export" />
+    <item
+        android:id="@+id/item09"
+        android:icon="@drawable/ic_wifi_on"
+        android:title="@string/wifi_tethering" />
+    <item
+        android:id="@+id/item05"
+        android:icon="@drawable/ic_hunt"
+        android:title="@string/ip_hunt" />
+    <item
+        android:id="@+id/item01"
+        android:icon="@drawable/ic_webhook"
+        android:title="@string/auto_ping" />
+</menu>

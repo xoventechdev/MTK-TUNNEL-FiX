@@ -1,0 +1,621 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.xoventech.tunnel.vpn"
+4    android:versionCode="6"
+5    android:versionName="5.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:5:5-84
+12        android:name="android.hardware.camera"
+12-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:5:19-57
+13        android:required="false" />
+13-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:5:58-82
+14    <uses-feature
+14-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:6:5-94
+15        android:name="android.hardware.camera.autofocus"
+15-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:6:19-67
+16        android:required="false" />
+16-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:6:68-92
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:8:5-66
+18-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:8:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:9:5-78
+19-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:9:22-76
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:10:5-76
+20-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:10:22-74
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:11:5-76
+21-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:11:22-74
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:12:5-80
+22-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:12:22-78
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+23-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:14:5-89
+23-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:14:22-86
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:16:5-76
+24-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:16:22-73
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:17:5-67
+25-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:17:22-65
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:18:5-66
+26-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:18:22-63
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:19:5-65
+27-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:19:22-62
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:20:5-75
+28-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:20:22-72
+29    <uses-permission
+29-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:22:5-107
+30        android:name="android.permission.READ_EXTERNAL_STORAGE"
+30-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:22:22-77
+31        android:maxSdkVersion="32" />
+31-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:22:78-104
+32    <uses-permission
+32-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:23:5-108
+33        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+33-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:23:22-78
+34        android:maxSdkVersion="32" />
+34-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:23:79-105
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+36    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+36-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+37    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+37-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+37-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+38    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+38-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+38-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+39
+40    <permission
+40-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+41        android:name="dev.xoventech.tunnel.vpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="dev.xoventech.tunnel.vpn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:25:5-169:19
+47        android:name="dev.xoventech.tunnel.vpn.harliesApplication"
+47-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:32:9-67
+48        android:allowBackup="true"
+48-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:26:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.13.0] C:\jdk-17\caches\transforms-4\099f6db4730d7111cfbfc71bc8293520\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+50        android:banner="@drawable/icon_icon"
+50-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:30:9-45
+51        android:debuggable="true"
+52        android:extractNativeLibs="true"
+53        android:icon="@drawable/icon_icon"
+53-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:29:9-43
+54        android:label="@string/app_name"
+54-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:27:9-41
+55        android:supportsRtl="true"
+55-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:31:9-35
+56        android:testOnly="true"
+57        android:theme="@style/AppTheme" >
+57-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:28:9-40
+58        <meta-data
+58-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:34:9-36:36
+59            android:name="firebase_performance_logcat_enabled"
+59-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:35:13-63
+60            android:value="true" />
+60-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:36:13-33
+61
+62        <service
+62-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:38:9-52:19
+63            android:name="dev.xoventech.tunnel.vpn.service.OpenVPNService"
+63-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:38:18-80
+64            android:exported="true"
+64-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:42:13-36
+65            android:foregroundServiceType="specialUse"
+65-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:40:13-55
+66            android:label="OpenVPNService"
+66-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:41:13-43
+67            android:permission="android.permission.BIND_VPN_SERVICE" >
+67-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:39:13-69
+68            <intent-filter>
+68-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:43:13-45:29
+69                <action android:name="android.net.VpnService" />
+69-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:17-65
+69-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:25-62
+70            </intent-filter>
+71
+72            <meta-data
+72-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:46:13-48:40
+73                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+73-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:47:17-73
+74                android:value="true" />
+74-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:48:17-37
+75
+76            <property
+76-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:49:13-51:39
+77                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+77-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:50:17-76
+78                android:value="vpn" />
+78-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:51:17-36
+79        </service>
+80        <service
+80-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:54:9-68:19
+81            android:name="dev.xoventech.tunnel.vpn.service.VPNTunnelService"
+81-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:54:18-82
+82            android:exported="true"
+82-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:58:13-36
+83            android:foregroundServiceType="specialUse"
+83-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:56:13-55
+84            android:label="SSHTunnelService"
+84-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:57:13-45
+85            android:permission="android.permission.BIND_VPN_SERVICE" >
+85-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:55:13-69
+86            <intent-filter>
+86-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:43:13-45:29
+87                <action android:name="android.net.VpnService" />
+87-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:17-65
+87-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:25-62
+88            </intent-filter>
+89
+90            <meta-data
+90-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:46:13-48:40
+91                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+91-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:47:17-73
+92                android:value="true" />
+92-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:48:17-37
+93
+94            <property
+94-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:49:13-51:39
+95                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+95-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:50:17-76
+96                android:value="vpn" />
+96-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:51:17-36
+97        </service>
+98        <service
+98-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:70:9-77:19
+99            android:name="app.openconnect.core.OCService"
+99-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:71:13-58
+100            android:exported="true"
+100-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:73:13-36
+101            android:permission="android.permission.BIND_VPN_SERVICE" >
+101-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:72:13-69
+102            <intent-filter>
+102-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:43:13-45:29
+103                <action android:name="android.net.VpnService" />
+103-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:17-65
+103-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:25-62
+104            </intent-filter>
+105        </service>
+106        <service
+106-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:79:9-96:19
+107            android:name="com.v2ray.ang.service.V2RayVpnService"
+107-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:80:13-65
+108            android:enabled="true"
+108-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:82:13-35
+109            android:exported="false"
+109-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:83:13-37
+110            android:foregroundServiceType="specialUse"
+110-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:81:13-55
+111            android:label="V2RayVpnService"
+111-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:84:13-44
+112            android:permission="android.permission.BIND_VPN_SERVICE"
+112-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:85:13-69
+113            android:process=":RunSoLibV2RayDaemon" >
+113-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:86:13-51
+114            <intent-filter>
+114-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:43:13-45:29
+115                <action android:name="android.net.VpnService" />
+115-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:17-65
+115-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:44:25-62
+116            </intent-filter>
+117
+118            <meta-data
+118-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:46:13-48:40
+119                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+119-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:47:17-73
+120                android:value="true" />
+120-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:48:17-37
+121
+122            <property
+122-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:49:13-51:39
+123                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+123-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:50:17-76
+124                android:value="vpn" />
+124-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:51:17-36
+125        </service>
+126        <service
+126-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:98:9-101:46
+127            android:name="dev.xoventech.tunnel.vpn.service.HarlieService"
+127-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:98:18-79
+128            android:exported="true"
+128-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:99:13-36
+129            android:foregroundServiceType="specialUse" />
+129-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:100:13-55
+130        <service
+130-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:103:9-111:19
+131            android:name="com.v2ray.ang.service.V2RayProxyOnlyService"
+131-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:103:18-76
+132            android:exported="false"
+132-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:105:13-37
+133            android:foregroundServiceType="specialUse"
+133-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:104:13-55
+134            android:label="V2RayProxyOnlyService"
+134-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:106:13-50
+135            android:process=":RunSoLibV2RayDaemon" >
+135-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:107:13-51
+136            <property
+136-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:49:13-51:39
+137                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+137-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:50:17-76
+138                android:value="vpn" />
+138-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:51:17-36
+139        </service>
+140
+141        <activity
+141-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:113:9-121:20
+142            android:name="dev.xoventech.tunnel.vpn.activities.SpashActivity"
+142-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:114:13-77
+143            android:exported="true"
+143-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:116:13-36
+144            android:theme="@style/AppTheme" >
+144-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:115:13-44
+145            <intent-filter>
+145-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:117:13-120:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:118:17-68
+146-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:118:25-66
+147
+148                <category android:name="android.intent.category.LAUNCHER" />
+148-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:119:17-76
+148-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:119:27-74
+149            </intent-filter>
+150        </activity>
+151        <activity
+151-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:123:9-130:20
+152            android:name="dev.xoventech.tunnel.vpn.activities.OpenVPNClient"
+152-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:124:13-77
+153            android:exported="true"
+153-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:126:13-36
+154            android:theme="@style/AppTheme" >
+154-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:125:13-44
+155            <intent-filter>
+155-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:127:13-129:29
+156                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+156-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:128:17-99
+156-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:128:25-96
+157            </intent-filter>
+158        </activity>
+159        <activity
+159-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:132:9-134:39
+160            android:name="dev.xoventech.tunnel.vpn.activities.wifiTethering"
+160-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:133:13-77
+161            android:exported="true" />
+161-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:134:13-36
+162        <activity
+162-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:136:9-138:38
+163            android:name="dev.xoventech.tunnel.vpn.adapter.ConfigSpinnerAdapter"
+163-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:137:13-81
+164            android:exported="true" />
+164-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:138:13-36
+165        <activity
+165-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:140:9-142:38
+166            android:name="dev.xoventech.tunnel.vpn.activities.advanceSettings"
+166-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:141:13-79
+167            android:exported="true" />
+167-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:142:13-36
+168        <activity
+168-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:144:9-151:20
+169            android:name="app.openconnect.api.ConfirmDialog"
+169-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:145:13-61
+170            android:exported="true"
+170-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:147:13-36
+171            android:permission="app.openconnect.REMOTE_API" >
+171-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:146:13-60
+172            <intent-filter>
+172-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:148:13-150:29
+173                <action android:name="android.intent.action.MAIN" />
+173-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:118:17-68
+173-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:118:25-66
+174            </intent-filter>
+175        </activity>
+176
+177        <receiver
+177-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:153:9-158:20
+178            android:name="app.openconnect.OnBootReceiver"
+178-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:153:19-64
+179            android:exported="true" >
+179-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:154:13-36
+180            <intent-filter>
+180-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:155:13-157:29
+181                <action android:name="android.intent.action.BOOT_COMPLETED" />
+181-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:156:17-79
+181-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:156:25-76
+182            </intent-filter>
+183        </receiver>
+184
+185        <meta-data
+185-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:160:9-162:36
+186            android:name="xposedmodule"
+186-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:161:13-40
+187            android:value="true" />
+187-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:162:13-33
+188        <meta-data
+188-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:163:9-165:70
+189            android:name="xposeddescription"
+189-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:164:13-45
+190            android:value="Bypass Android VPN confirmation dialog" />
+190-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:165:13-67
+191        <meta-data
+191-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:166:9-168:34
+192            android:name="xposedminversion"
+192-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:167:13-44
+193            android:value="30" />
+193-->E:\MTK-TUNNEL-FiX\app\src\main\AndroidManifest.xml:168:13-31
+194
+195        <receiver
+195-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+196            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+196-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+197            android:enabled="true"
+197-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+198            android:exported="false" >
+198-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+199        </receiver>
+200
+201        <service
+201-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+202            android:name="com.google.android.gms.measurement.AppMeasurementService"
+202-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+203            android:enabled="true"
+203-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+204            android:exported="false" />
+204-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+205        <service
+205-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+206            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+206-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+209            android:permission="android.permission.BIND_JOB_SERVICE" />
+209-->[com.google.android.gms:play-services-measurement:22.1.2] C:\jdk-17\caches\transforms-4\05a91a6dccfa537c660594ee06892df0\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+210
+211        <property
+211-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+212            android:name="android.adservices.AD_SERVICES_CONFIG"
+212-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+213            android:resource="@xml/ga_ad_services_config" />
+213-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+214
+215        <service
+215-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:34:9-40:19
+216            android:name="com.google.firebase.components.ComponentDiscoveryService"
+216-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:35:13-84
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+218            android:exported="false" >
+218-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:36:13-37
+219            <meta-data
+219-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+220                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+220-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\jdk-17\caches\transforms-4\b7ee1c2eaf51dd2e9ae91fe4416da867\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:15:13-17:85
+223                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+223-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:16:17-126
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:17:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:18:13-20:85
+226                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+226-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:19:17-115
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-crashlytics:19.2.1] C:\jdk-17\caches\transforms-4\66a32728f9d337974cab2cfaf9adbb14\transformed\jetified-firebase-crashlytics-19.2.1\AndroidManifest.xml:20:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:29:13-31:85
+229                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+229-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:30:17-117
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:31:17-82
+231            <meta-data
+231-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+232                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+232-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+235                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+235-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-installations:18.0.0] C:\jdk-17\caches\transforms-4\bbfe7e7a258edfcbec1b0c1e4d11ae5c\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\jdk-17\caches\transforms-4\847ebc5810a050984cdc01791fb3af3a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+238                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+238-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\jdk-17\caches\transforms-4\847ebc5810a050984cdc01791fb3af3a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\jdk-17\caches\transforms-4\847ebc5810a050984cdc01791fb3af3a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+241                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+241-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-datatransport:19.0.0] C:\jdk-17\caches\transforms-4\c34517de80a16b99889329d03c21b0f0\transformed\jetified-firebase-datatransport-19.0.0\AndroidManifest.xml:25:13-27:85
+244                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+244-->[com.google.firebase:firebase-datatransport:19.0.0] C:\jdk-17\caches\transforms-4\c34517de80a16b99889329d03c21b0f0\transformed\jetified-firebase-datatransport-19.0.0\AndroidManifest.xml:26:17-115
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-datatransport:19.0.0] C:\jdk-17\caches\transforms-4\c34517de80a16b99889329d03c21b0f0\transformed\jetified-firebase-datatransport-19.0.0\AndroidManifest.xml:27:17-82
+246        </service>
+247        <service
+247-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:22:9-25:40
+248            android:name="com.google.firebase.sessions.SessionLifecycleService"
+248-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:23:13-80
+249            android:enabled="true"
+249-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:24:13-35
+250            android:exported="false" />
+250-->[com.google.firebase:firebase-sessions:2.0.6] C:\jdk-17\caches\transforms-4\a60ad489f52172834ab6f76472c88f84\transformed\jetified-firebase-sessions-2.0.6\AndroidManifest.xml:25:13-37
+251
+252        <provider
+252-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+253            android:name="com.google.firebase.provider.FirebaseInitProvider"
+253-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+254            android:authorities="dev.xoventech.tunnel.vpn.firebaseinitprovider"
+254-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+255            android:directBootAware="true"
+255-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+256            android:exported="false"
+256-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+257            android:initOrder="100" />
+257-->[com.google.firebase:firebase-common:21.0.0] C:\jdk-17\caches\transforms-4\bffb55d8759923b321abc1f2ffad37d3\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+258
+259        <activity
+259-->[com.google.android.gms:play-services-base:18.5.0] C:\jdk-17\caches\transforms-4\fae319b2f0535a651426f25c24aab536\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+260            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+260-->[com.google.android.gms:play-services-base:18.5.0] C:\jdk-17\caches\transforms-4\fae319b2f0535a651426f25c24aab536\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+261            android:exported="false"
+261-->[com.google.android.gms:play-services-base:18.5.0] C:\jdk-17\caches\transforms-4\fae319b2f0535a651426f25c24aab536\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+262            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+262-->[com.google.android.gms:play-services-base:18.5.0] C:\jdk-17\caches\transforms-4\fae319b2f0535a651426f25c24aab536\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+263
+264        <provider
+264-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+265            android:name="androidx.startup.InitializationProvider"
+265-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+266            android:authorities="dev.xoventech.tunnel.vpn.androidx-startup"
+266-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+267            android:exported="false" >
+267-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+268            <meta-data
+268-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+269                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+269-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+270                android:value="androidx.startup" />
+270-->[androidx.emoji2:emoji2:1.3.0] C:\jdk-17\caches\transforms-4\b643d2b2c40377622b2789a876e800a2\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+271            <meta-data
+271-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\jdk-17\caches\transforms-4\f4dbf136c18e97a6847f5fac9e789e74\transformed\jetified-lifecycle-process-2.8.5\AndroidManifest.xml:29:13-31:52
+272                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+272-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\jdk-17\caches\transforms-4\f4dbf136c18e97a6847f5fac9e789e74\transformed\jetified-lifecycle-process-2.8.5\AndroidManifest.xml:30:17-78
+273                android:value="androidx.startup" />
+273-->[androidx.lifecycle:lifecycle-process:2.8.5] C:\jdk-17\caches\transforms-4\f4dbf136c18e97a6847f5fac9e789e74\transformed\jetified-lifecycle-process-2.8.5\AndroidManifest.xml:31:17-49
+274            <meta-data
+274-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+275                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+275-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+276                android:value="androidx.startup" />
+276-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+277        </provider>
+278
+279        <uses-library
+279-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\jdk-17\caches\transforms-4\7a8578b4f0a26669e133cc540df39b80\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+280            android:name="android.ext.adservices"
+280-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\jdk-17\caches\transforms-4\7a8578b4f0a26669e133cc540df39b80\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+281            android:required="false" />
+281-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\jdk-17\caches\transforms-4\7a8578b4f0a26669e133cc540df39b80\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+282        <uses-library
+282-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+283            android:name="androidx.window.extensions"
+283-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+284            android:required="false" />
+284-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+285        <uses-library
+285-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+286            android:name="androidx.window.sidecar"
+286-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+287            android:required="false" />
+287-->[androidx.window:window:1.0.0] C:\jdk-17\caches\transforms-4\d2bf67cbcc667116a2a5581ee9aca307\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+288
+289        <meta-data
+289-->[com.google.android.gms:play-services-basement:18.4.0] C:\jdk-17\caches\transforms-4\0fa7e1d94a2eea1b2833fc271687bbd1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+290            android:name="com.google.android.gms.version"
+290-->[com.google.android.gms:play-services-basement:18.4.0] C:\jdk-17\caches\transforms-4\0fa7e1d94a2eea1b2833fc271687bbd1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+291            android:value="@integer/google_play_services_version" />
+291-->[com.google.android.gms:play-services-basement:18.4.0] C:\jdk-17\caches\transforms-4\0fa7e1d94a2eea1b2833fc271687bbd1\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+292
+293        <receiver
+293-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+294            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+294-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+295            android:directBootAware="false"
+295-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+296            android:enabled="true"
+296-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+297            android:exported="true"
+297-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+298            android:permission="android.permission.DUMP" >
+298-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+299            <intent-filter>
+299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+300                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+300-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+300-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+301            </intent-filter>
+302            <intent-filter>
+302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+303                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+303-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+303-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+304            </intent-filter>
+305            <intent-filter>
+305-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+306                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+307            </intent-filter>
+308            <intent-filter>
+308-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+309                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\jdk-17\caches\transforms-4\8c7d7ef4821267bfb3b633455864aca8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+310            </intent-filter>
+311        </receiver>
+312
+313        <service
+313-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:26:9-32:19
+314            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+314-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:27:13-103
+315            android:exported="false" >
+315-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:28:13-37
+316            <meta-data
+316-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:29:13-31:39
+317                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+317-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:30:17-94
+318                android:value="cct" />
+318-->[com.google.android.datatransport:transport-backend-cct:3.3.0] C:\jdk-17\caches\transforms-4\0c177bb47136558f1b16b03c3b26e88f\transformed\jetified-transport-backend-cct-3.3.0\AndroidManifest.xml:31:17-36
+319        </service>
+320        <service
+320-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:24:9-28:19
+321            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+321-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:25:13-117
+322            android:exported="false"
+322-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:26:13-37
+323            android:permission="android.permission.BIND_JOB_SERVICE" >
+323-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:27:13-69
+324        </service>
+325
+326        <receiver
+326-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:30:9-32:40
+327            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+327-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:31:13-132
+328            android:exported="false" />
+328-->[com.google.android.datatransport:transport-runtime:3.3.0] C:\jdk-17\caches\transforms-4\3037a042c80324cfca9addcb1d1d8247\transformed\jetified-transport-runtime-3.3.0\AndroidManifest.xml:32:13-37
+329    </application>
+330
+331</manifest>

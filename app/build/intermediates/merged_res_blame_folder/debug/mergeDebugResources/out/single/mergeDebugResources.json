@@ -1,0 +1,962 @@
+[
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_design_snackbar_in.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_activity_ssh.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/activity_ssh.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_search_black_24dp.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_hunt.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_hunt.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_popup_enter.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_progress_.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/progress_.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_checked_icon_null_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_mtk_home.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/mtk_home.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_advance_settings.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/advance_settings.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_main_adapters.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/main_adapters.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_round1.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/round1.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-anydpi-v26_ic_banner.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-anydpi-v26/ic_banner.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_fade_in.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_tooltip_enter.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_slide_in_top.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_unchecked_box_inner_merged_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame3.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame3.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_btn_connect.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/btn_connect.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_notification_dialog.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/notification_dialog.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_copy.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_copy.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_tele.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_tele.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/menu_dev_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/menu/dev_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_background_shape.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/background_shape.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_playstore.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_playstore.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card1.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card1.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/menu_tweak_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/menu/tweak_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_privacy_layout.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_privacy_layout.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_ids_id.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_ids_id.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_dark_background.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/dark_background.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_shape_oval_normal.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/shape_oval_normal.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_file_normal.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_file_normal.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic11.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic11.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/raw_ovpn_cert.ovpn.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/raw/ovpn_cert.ovpn"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_file_import.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_file_import.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_img_clouds.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/img_clouds.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_bg_spinner.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/bg_spinner.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_back_left.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_back_left.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_flags_frame.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/flags_frame.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_list_item_log_drawer.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/list_item_log_drawer.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_graph.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/graph.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_cloud_upload.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_cloud_upload.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_drag_item_recycler_view.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/drag_item_recycler_view.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_password.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_password.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/menu_nav_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_item_unselected.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_item_unselected.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_connect_button.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/connect_button.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_nav_bg2_light.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/nav_bg2_light.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_slide_out_bottom.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame5.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame5.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_notification_layout.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/notification_layout.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/raw_notification.json.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/raw/notification.json"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/xml_v2rey_preferences.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/xml/v2rey_preferences.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_clip_dialog.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/clip_dialog.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame2.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame2.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_rdm.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/rdm.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_zoom_in.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/zoom_in.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_ping_dialog.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/ping_dialog.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_bounce.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/bounce.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_add_payload.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_add_payload.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_gradient01.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/gradient01.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/font_montserrat_medium.ttf.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/font/montserrat_medium.ttf"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_vip.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/vip.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_cloud_on.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/cloud_on.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_slr.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/slr.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_rlb_card_top_shape.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/rlb_card_top_shape.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_android.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_android.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_server.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_server.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_progdialog.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/progdialog.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_cogs.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/cogs.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_key.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/key.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_error.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_error.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_dns.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_dns.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_main_bg1.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/main_bg1.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/raw_pdnsd_local.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/raw/pdnsd_local"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_xupdate.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/xupdate.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_fade_out.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/fade_out.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_premium.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/premium.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_random.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_random.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_arrow_l.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/arrow_l.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame4.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame4.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ads_logo.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ads_logo.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_tooltip_exit.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_auto.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/auto.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xhdpi_ic_banner_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xhdpi/ic_banner_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_add_ssl.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_add_ssl.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_telegram.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/telegram.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_fade_out.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_disconnect_button.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/disconnect_button.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_setting.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_setting.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_login_activity.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/login_activity.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_slide_out_top.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xhdpi_ic_banner.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xhdpi/ic_banner.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_arrow_down.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/arrow_down.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_navheader.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/navheader.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_loadingpoint.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/loadingpoint.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_preference_with_help_link.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/preference_with_help_link.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_add_pass_config.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/add_pass_config.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_layout_apps.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/layout_apps.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/xml_ovpn_preferences.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/xml/ovpn_preferences.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_api_confirm.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/api_confirm.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/font_harliefont.ttf.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/font/harliefont.ttf"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic12.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic12.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bg_round_l.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bg_round_l.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_server_list.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/server_list.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_network_spinner.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_network_spinner.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_btn_shdow.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/btn_shdow.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_file_export.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_file_export.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_udp.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_udp.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_connecting_ring.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_connecting_ring.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_icon_icon.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/icon_icon.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/font_montserrat_bold.ttf.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/font/montserrat_bold.ttf"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_cloud_download.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_cloud_download.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_img_sun.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/img_sun.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_cloud_off.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_cloud_off.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_list_layout.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/list_layout.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_clear.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_clear.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_slide_in_bottom.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_drag.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_drag.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_config_added.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_config_added.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_setting_bg.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/setting_bg.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_dns.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_dns.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_img_moon.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/img_moon.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_timepicker.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/timepicker.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_update.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_update.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/animator_button_state_list_anim_neumorph.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/animator/button_state_list_anim_neumorph.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_circle_bg_account.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/circle_bg_account.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_close.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_close.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_add_server.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_add_server.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_custom_port_spinner_dropdown.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/custom_port_spinner_dropdown.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_map.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_map.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bg_transparent.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bg_transparent.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_shape.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/shape.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_progress_ring.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/progress_ring.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_shape_rectangle_normal.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/shape_rectangle_normal.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_colorchooser.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/colorchooser.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/font_montserrat_regular.ttf.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/font/montserrat_regular.ttf"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_timer.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_timer.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_ovpn_settings.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/ovpn_settings.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_exit.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/exit.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_setup.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_setup.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_main_bg.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/main_bg.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_network_option.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/network_option.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_fix_basic_button_border.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/fix_basic_button_border.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_snackbar.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/snackbar.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_import.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_import.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_activity_web.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/activity_web.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_tool_bar.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/tool_bar.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_design_bottom_sheet_slide_in.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_popup_exit.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dns_resolver.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dns_resolver.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_message.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_message.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_server_spinner.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_server_spinner.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_arrow_d.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/arrow_d.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_radius.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/radius.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_launchvpn.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/launchvpn.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_pstore.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/pstore.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_notif2.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/notif2.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_custom_port_spinner.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/custom_port_spinner.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_main.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/main.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_privte.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/privte.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_splash.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/splash.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_shake.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/shake.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_server_locations.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/server_locations.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_border_normal.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/border_normal.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_network.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_network.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bmh.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bmh.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_on_mtrl_ring_outer_path_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_blink.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/blink.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/menu_server_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/menu/server_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_book.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_book.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_card_frame6.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/card_frame6.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bsr.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bsr.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bg_round_d.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bg_round_d.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_colors.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_colors.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_telegram.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_telegram.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_activity_wifi.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/activity_wifi.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_nav_bg_dark.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/nav_bg_dark.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_e44.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/e44.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_design_snackbar_out.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_username.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_username.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_dialog_udp_maker.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/dialog_udp_maker.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bg_spin.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bg_spin.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_radio.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_radio.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_cg.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_cg.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_shadow.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/shadow.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bq5.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bq5.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_bg_flags.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/bg_flags.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_border_selected.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/border_selected.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_wifi_on.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_wifi_on.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_nav_bg_light.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/nav_bg_light.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_item_selected.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_item_selected.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_hide_set.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_hide_set.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_webhook.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_webhook.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_window.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/window.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_config_btn.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/config_btn.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_cloud_off.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/cloud_off.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_more_set.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/more_set.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_v2ray_settings.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/v2ray_settings.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_cloud_on.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_cloud_on.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/menu_navigation_menu.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/menu/navigation_menu.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_layout_apps_item.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/layout_apps_item.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_ic_bug_report.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/ic_bug_report.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_nav_bg2_dark.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/nav_bg2_dark.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable_web_server.png.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable/web_server.png"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_abc_slide_in_bottom.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/layout_activity_log.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/layout/activity_log.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_ic_email_black_24dp.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "dev.xoventech.tunnel.vpn.app-debug-50:/drawable-hdpi_progressbardrawble.xml.flat",
+        "source": "dev.xoventech.tunnel.vpn.app-main-52:/drawable-hdpi/progressbardrawble.xml"
+    }
+]
